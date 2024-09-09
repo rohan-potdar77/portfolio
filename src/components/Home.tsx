@@ -94,7 +94,7 @@ const BackgroundVideo: FC = memo(() => {
   const classes = useStyles();
   return (
     <video className={classes.video} autoPlay loop muted>
-      <source src="/coding_zoom.mp4" type="video/mp4" />
+      <source src="/portfolio/coding_zoom.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
   );
@@ -231,7 +231,7 @@ const Home: FC = () => {
             >
               <motion.img
                 alt="asd"
-                src="/guy_laptop_sitting_1.png"
+                src="/portfolio/guy_laptop_sitting_1.png"
                 width="320px"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
