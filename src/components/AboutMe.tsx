@@ -1,6 +1,7 @@
 import EmojiObjectsIcon from "@mui/icons-material/EmojiObjects";
 import FlagIcon from "@mui/icons-material/Flag";
 import SchoolIcon from "@mui/icons-material/School";
+import WorkIcon from "@mui/icons-material/Work";
 import {
   Box,
   Container,
@@ -15,6 +16,7 @@ import {
   Typography,
 } from "@mui/material";
 import { makeStyles } from "@mui/styles";
+import { motion } from "framer-motion";
 import {
   memo,
   ReactNode,
@@ -76,6 +78,9 @@ const CustomTypography = memo(({ children }: { children: ReactNode }) => (
     lineHeight={2}
     letterSpacing={1}
     textAlign="justify"
+    component={motion.p}
+    transition={{ duration: 0.2 }}
+    whileHover={{ scale: 1.05, color: "#F38568" }}
   >
     {children}
   </Typography>
@@ -83,7 +88,7 @@ const CustomTypography = memo(({ children }: { children: ReactNode }) => (
 
 const Education = memo(() => (
   <Fragment>
-    <List sx={{ marginLeft: 5 }}>
+    <List>
       <ListItem>
         <ListItemIcon>
           <SchoolIcon
@@ -126,12 +131,29 @@ const Education = memo(() => (
   </Fragment>
 ));
 
-const GoalAndVision = memo(() => (
+const Experience = memo(() => (
   <Fragment>
-    <List sx={{ marginLeft: 2 }}>
+    <List>
       <ListItem>
         <ListItemIcon>
-          <FlagIcon sx={{ color: (theme) => theme.palette.primary.light }} />
+          <WorkIcon sx={{ color: (theme) => theme.palette.secondary.light }} />
+        </ListItemIcon>
+        <ListItemText
+          primary="Full Stack Developer"
+          secondary="NWS Software Private Limited, November 2022 - April 2024"
+          secondaryTypographyProps={{ color: "whitesmoke" }}
+        />
+      </ListItem>
+    </List>
+  </Fragment>
+));
+
+const Objective = memo(() => (
+  <Fragment>
+    <List>
+      <ListItem>
+        <ListItemIcon>
+          <FlagIcon sx={{ color: (theme) => theme.palette.secondary.light }} />
         </ListItemIcon>
         <ListItemText
           primary="Goal"
@@ -147,7 +169,7 @@ const GoalAndVision = memo(() => (
       <ListItem>
         <ListItemIcon>
           <EmojiObjectsIcon
-            sx={{ color: (theme) => theme.palette.primary.light }}
+            sx={{ color: (theme) => theme.palette.secondary.light }}
           />
         </ListItemIcon>
         <ListItemText
@@ -172,7 +194,7 @@ const AboutMe = () => {
     setValue(newValue);
   }, []);
 
-  const aboutContent = useMemo(function () {
+  const AboutContent = useMemo(function () {
     return (
       <>
         <CustomTypography>
@@ -206,7 +228,7 @@ const AboutMe = () => {
       <Container maxWidth="xl" className={classes.container}>
         <Grid container sx={{ padding: "3rem 1rem 1rem 1rem" }}>
           <Grid item xs={12} md={6}>
-            {aboutContent}
+            {AboutContent}
           </Grid>
 
           <Grid
@@ -217,7 +239,7 @@ const AboutMe = () => {
             flexDirection="column"
             alignItems="center"
           >
-            <Box marginTop={{ xs: 4, sm: 0 }}>
+            <Box marginTop={{ xs: 4, sm: 4, md: 0 }}>
               <Tabs value={value} onChange={handleChange} aria-label="About Me">
                 <Tab
                   className={classes.tabStyle}
@@ -242,11 +264,11 @@ const AboutMe = () => {
             </CustomTabPanel>
 
             <CustomTabPanel value={value} index={1}>
-              Item Two
+              <Experience />
             </CustomTabPanel>
 
             <CustomTabPanel value={value} index={2}>
-              <GoalAndVision />
+              <Objective />
             </CustomTabPanel>
           </Grid>
         </Grid>
