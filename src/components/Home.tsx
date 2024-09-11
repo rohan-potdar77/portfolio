@@ -81,7 +81,7 @@ const ButtonList: FC = memo(() => (
         sx={{
           color: "#FFFFFF",
           textTransform: "capitalize",
-          "&: hover": { backgroundColor: "rgba(70, 130, 180, 0.4)" },
+          "&:hover": { backgroundColor: "rgba(70, 130, 180, 0.4)" },
         }}
       >
         {button.btnName}

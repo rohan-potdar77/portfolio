@@ -1,0 +1,88 @@
+{
+  "technologies": [
+    {
+      "id": 1,
+      "alt": "html-icon",
+      "src": "/portfolio/html-icon.svg",
+      "details": "https://en.wikipedia.org/wiki/HTML",
+      "description": "HTML is the standard markup language for creating and structuring content on the web"
+    },
+    {
+      "id": 2,
+      "alt": "css-icon",
+      "src": "/portfolio/css-icon.svg",
+      "details": "https://en.wikipedia.org/wiki/CSS",
+      "description": "CSS is a style sheet language used to control the layout and appearance of web pages"
+    },
+    {
+      "id": 3,
+      "alt": "javascript-icon",
+      "src": "/portfolio/javascript-icon.svg",
+      "details": "https://en.wikipedia.org/wiki/JavaScript",
+      "description": "JavaScript is a dynamic programming language used to create interactive effects within web browsers"
+    },
+    {
+      "id": 4,
+      "alt": "typescript-icon",
+      "src": "/portfolio/typescript-icon.svg",
+      "details": "https://en.wikipedia.org/wiki/TypeScript",
+      "description": "TypeScript is a strongly typed superset of JavaScript that adds static types to the language"
+    },
+    {
+      "id": 5,
+      "alt": "react-js-icon",
+      "src": "/portfolio/react-js-icon.svg",
+      "details": "https://en.wikipedia.org/wiki/React_(JavaScript_library)",
+      "description": "React Js is a JavaScript library for building user interfaces, focusing on the view layer of web applications"
+    },
+    {
+      "id": 6,
+      "alt": "redux-js-icon",
+      "src": "/portfolio/redux-icon.svg",
+      "details": "https://en.wikipedia.org/wiki/Redux_(JavaScript_library)",
+      "description": "Redux Js is a predictable state container for JavaScript apps, often used with React for state management"
+    },
+    {
+      "id": 7,
+      "alt": "node-js-icon",
+      "src": "/portfolio/node-js-icon.svg",
+      "details": "https://en.wikipedia.org/wiki/Node.js",
+      "description": "Node Js is a runtime environment that allows developers to run JavaScript on the server-side"
+    },
+    {
+      "id": 8,
+      "alt": "express-js-icon",
+      "src": "/portfolio/express-js-icon.svg",
+      "details": "https://en.wikipedia.org/wiki/Express.js",
+      "description": "Express Js is a minimalist web framework for Node Js, designed for building web applications and APIs"
+    },
+    {
+      "id": 9,
+      "alt": "github-icon",
+      "src": "/portfolio/github-icon.svg",
+      "details": "https://en.wikipedia.org/wiki/GitHub",
+      "description": "GitHub is a platform for version control and collaboration, allowing developers to manage and share code"
+    },
+    {
+      "id": 10,
+      "alt": "mongodb-icon",
+      "src": "/portfolio/mongodb-icon.svg",
+      "details": "https://en.wikipedia.org/wiki/MongoDB",
+      "description": "MongoDB is a NoSQL database that stores data in flexible, JSON-like documents"
+    },
+    {
+      "id": 11,
+      "alt": "mysql-icon",
+      "src": "/portfolio/mysql-icon.svg",
+      "details": "https://en.wikipedia.org/wiki/MySQL",
+      "description": "MySQL is a popular open-source relational database management system known for its reliability and performance"
+    },
+    {
+      "id": 12,
+      "alt": "postgresql-icon",
+      "src": "/portfolio/postgresql-icon.svg",
+      "details": "https://en.wikipedia.org/wiki/PostgreSQL",
+      "description": "PostgreSQL is an advanced open-source relational database system with a focus on extensibility and SQL compliance"
+    }
+  ]
+}

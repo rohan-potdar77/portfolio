@@ -226,7 +226,7 @@ const AboutMe = () => {
   return (
     <Fragment>
       <Container maxWidth="xl" className={classes.container}>
-        <Grid container sx={{ padding: "3rem 1rem 1rem 1rem" }}>
+        <Grid container sx={{ padding: "3rem 1rem 3rem 1rem" }}>
           <Grid item xs={12} md={6}>
             {AboutContent}
           </Grid>

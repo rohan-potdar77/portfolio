@@ -4,6 +4,7 @@ import { customTheme } from "./components/customization";
 import Home from "./components/Home";
 import AboutMe from "./components/AboutMe";
 import { Fragment } from "react/jsx-runtime";
+import Technology from "./components/Technology";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <ThemeProvider theme={customTheme}>
         <Home />
         <AboutMe />
+        <Technology />
       </ThemeProvider>
     </Fragment>
   );
