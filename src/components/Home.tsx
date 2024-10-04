@@ -63,11 +63,10 @@ const useStyles = makeStyles((theme: Theme) => ({
 }));
 
 const headerButtons: MyButton[] = [
-  { id: 1, btnName: "home" },
-  { id: 2, btnName: "about me" },
-  { id: 3, btnName: "technology" },
-  { id: 4, btnName: "projects" },
-  { id: 5, btnName: "contact me" },
+  { id: 1, btnName: "about me" },
+  { id: 2, btnName: "skills" },
+  { id: 3, btnName: "projects" },
+  { id: 4, btnName: "contact me" },
 ];
 
 const ButtonList: FC = memo(() => (

@@ -84,5 +84,39 @@
       "details": "https://en.wikipedia.org/wiki/PostgreSQL",
       "description": "PostgreSQL is an advanced open-source relational database system with a focus on extensibility and SQL compliance"
     }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "link": "https://www.prernaacademy.in",
+      "heading": "Global Counseling & Information Centre for Online & Distance Education.",
+      "description": "Prerna Academy is a Global Counseling & Information Centre for Online & Distance Education that helps students secure admissions to their preferred universities through established partnerships. The platform also offers comprehensive administrative tools to enhance operational efficiency and support overall management.",
+      "isDeployed": true,
+      "isUnderDevelopment": false
+    },
+    {
+      "id": 2,
+      "link": "",
+      "heading": "Insurance Management for Vehicles and Cattle",
+      "description": "Insurance Management System is designed to streamline the processes of vehicle and cattle insurance, offering a seamless experience for policyholders. The platform features internal modules for insurance registration, incident reporting, and claims management, ensuring efficient handling of insurance needs.",
+      "isDeployed": false,
+      "isUnderDevelopment": true
+    },
+    {
+      "id": 3,
+      "link": "",
+      "heading": "Human Resource Management Tool with Internal Job Portal",
+      "description": "Our Human Resource Management Tool streamlines HR processes, enabling organizations to efficiently manage employee records, attendance, payroll, and performance evaluations. Designed with user-friendliness in mind, the tool also features an internal job portal that connects employees with new opportunities within the organization, fostering career growth and talent retention.",
+      "isDeployed": false,
+      "isUnderDevelopment": true
+    },
+    {
+      "id": 4,
+      "link": "http://www.hornbillvacations.com",
+      "heading": "Hornbill Vacations: Promoting Kerala Tourism and Wellness",
+      "description": "Hornbill Vacations, a division of Capere Grandios, is dedicated to marketing and promoting the rich tourism offerings of Kerala. The platform provides curated day-wise packages to explore the region's stunning attractions while also featuring Ayurveda services to enhance wellness experiences.",
+      "isDeployed": true,
+      "isUnderDevelopment": true
+    }
   ]
 }

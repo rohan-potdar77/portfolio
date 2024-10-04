@@ -1,6 +1,6 @@
 import { Container, Grid, Theme, Typography } from "@mui/material";
 import { makeStyles } from "@mui/styles";
-import { memo } from "react";
+import { FC, memo } from "react";
 import { Fragment } from "react/jsx-runtime";
 import { technologies } from "../assets/data/data.json";
 
@@ -22,11 +22,11 @@ const useStyles = makeStyles((theme: Theme) => ({
     justifyContent: "space-between",
     backgroundColor: "ButtonShadow",
     "&:hover": {
-      transform: "scale(1.1)",
+      transform: "scale(1.04)",
       backgroundColor: "rgba(70, 130, 180, 0.4)",
       cursor: "pointer",
     },
-    transition: "transform 0.4s ease-in-out, background-color 0.4s ease-in-out",
+    transition: "transform 0.3s ease-in-out, background-color 0.4s ease-in-out",
   },
   techImage: {
     height: "40%",
@@ -38,7 +38,7 @@ const handleClick = (url: string) => {
   window.open(url, "_blank", "noopener,noreferrer");
 };
 
-function Technology() {
+const Technology: FC = () => {
   const classes = useStyles();
   return (
     <Fragment>
@@ -70,6 +70,6 @@ function Technology() {
       </Container>
     </Fragment>
   );
-}
+};
 
 export default memo(Technology);

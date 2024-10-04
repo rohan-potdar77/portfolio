@@ -18,6 +18,7 @@ import {
 import { makeStyles } from "@mui/styles";
 import { motion } from "framer-motion";
 import {
+  FC,
   memo,
   ReactNode,
   SyntheticEvent,
@@ -186,7 +187,7 @@ const Objective = memo(() => (
   </Fragment>
 ));
 
-const AboutMe = () => {
+const AboutMe: FC = () => {
   const classes = useStyles();
   const [value, setValue] = useState<number>(0);
 
