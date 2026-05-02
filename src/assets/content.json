@@ -1,0 +1,96 @@
+{
+	"navbar": {
+		"logo": "DEV.IO",
+		"links": [
+			{ "label": "Home", "href": "#home" },
+			{ "label": "About", "href": "#about" },
+			{ "label": "Projects", "href": "#projects" },
+			{ "label": "Contact", "href": "#contact" }
+		]
+	},
+	"hero": {
+		"subtitle": "Hello, I am",
+		"title": "Rohan Potdar",
+		"rolePrefix": "Software ",
+		"roleHighlight": "Developer",
+		"roleSuffix": "",
+		"description": "Building futuristic digital experiences with cutting-edge technologies. Specialized in React, Node.js, and Modern UI/UX.",
+		"buttons": [
+			{
+				"label": "View Projects",
+				"href": "#projects",
+				"variant": "primary"
+			},
+			{ "label": "Contact Me", "href": "#contact", "variant": "outline" }
+		],
+		"codeCard": {
+			"developer": {
+				"name": "Rohan Potdar",
+				"skills": ["React.js", "Node.js", "TypeScript"],
+				"hardWorker": true
+			}
+		}
+	},
+	"techStack": {
+		"sectionTitle": "Tech Arsenal",
+		"sectionSubtitle": "Tools and technologies I use to build the future.",
+		"skills": [
+			{ "name": "React Js", "category": "Frontend", "level": 85 },
+			{ "name": "Node Js", "category": "Backend", "level": 85 },
+			{ "name": "TypeScript", "category": "Language", "level": 85 },
+			{ "name": "Javascript", "category": "Language", "level": 85 },
+			{ "name": "Serverless", "category": "Framework", "level": 75 },
+			{ "name": "MongoDB", "category": "Database", "level": 70 },
+			{ "name": "SQL", "category": "Database", "level": 80 },
+			{ "name": "AWS", "category": "Cloud", "level": 70 }
+		]
+	},
+	"projects": {
+		"sectionTitle": "Featured Projects",
+		"projectList": [
+			{
+				"title": "Prerna Academy",
+				"description": "Global Counseling & Information Centre for Online & Distance Education.",
+				"tags": ["React.js", "Node.js", "Express.js", "MongoDB"],
+				"link": "https://www.prernaacademy.in/"
+			},
+			{
+				"title": "Finguard Technologies",
+				"description": "Insurance Management for Vehicles and Cattle",
+				"tags": ["React.js", "Node.js", "Express.js", "MySQL"],
+				"link": "https://finguardtech.com/"
+			},
+			{
+				"title": "Hornbill Vacations",
+				"description": "Hornbill Vacations. Promoting Kerala Tourism and Wellness",
+				"tags": ["React.js", "Node.js", "Express.js", "MySQL"],
+				"link": "http://www.hornbillvacations.com/"
+			}
+		]
+	},
+	"contact": {
+		"sectionTitle": "Get In Touch",
+		"headline": "Let's Build Something Amazing",
+		"description": "I'm currently looking for new opportunities. Whether you have a question or just want to say hi, my inbox is always open.",
+		"email": "rohanpotdar777@gmail.com",
+		"location": "Pune, India",
+		"socialLinks": [
+			{ "label": "GitHub", "href": "https://github.com/rohan-potdar77" },
+			{
+				"label": "LinkedIn",
+				"href": "https://www.linkedin.com/in/rohan-p-a21845234/"
+			},
+			{ "label": "LeetCode", "href": "https://leetcode.com/u/rohan_777/" }
+		],
+		"form": {
+			"namePlaceholder": "Your Name",
+			"emailPlaceholder": "Your Email",
+			"messagePlaceholder": "Your Message",
+			"buttonText": "Send Message"
+		}
+	},
+	"footer": {
+		"text": "Rohan Potdar. All rights reserved.",
+		"credit": "Software Developer | MERN"
+	}
+}
